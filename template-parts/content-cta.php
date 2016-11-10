@@ -5,14 +5,13 @@
  * 
  * @package sth
  */
-if ( ! is_page( 'Getting involved' ) ) :?>
+;?>
 <section class="page-cta">
   <div class="container">
     <div class="col-md-12">
-      <a href="<?php echo get_permalink( get_page_by_title( 'Getting involved' ) ) ; ?>" class="" title="Find out how to get involved">
-        Find out how you can get involved
+      <a target="_blank" href="https://www.eventbrite.co.uk/e/north-of-england-breech-conference-ii-uk-tickets-25481488819#tickets" role="button" class="" title="Buy tickets">
+        Get your early bird tickets
       </a>
     </div>
   </div>
 </section>
-<?php endif ;?>
